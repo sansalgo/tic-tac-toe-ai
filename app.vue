@@ -1,4 +1,20 @@
 <script setup lang="ts">
+// Add SEO meta tags
+useSeoMeta({
+  title: 'Tic Tac Toe with AI - Beat the Bot!',
+  description: 'Play Tic Tac Toe against a smart AI opponent. Can you win? Free, fun, and engaging game for all!',
+  ogTitle: 'Tic Tac Toe with AI - Play Now!',
+  ogDescription: 'Challenge yourself in a classic Tic Tac Toe game against an AI opponent. Try it for free!',
+  ogImage: '/tic-tac-toe-ai-preview.jpg',
+  // ogUrl: 'https://example.com/tic-tac-toe',
+  ogType: 'website',
+  twitterCard: 'summary_large_image',
+  twitterTitle: 'Tic Tac Toe with AI',
+  twitterDescription: 'Enjoy the classic Tic Tac Toe game with a smart AI twist!',
+  // twitterImage: '/tic-tac-toe-ai-preview.jpg',
+  keywords: 'Tic Tac Toe, Play Tic Tac Toe, AI Tic Tac Toe, Strategy Game, Fun Games',
+});
+
 // State management
 const currentUser = ref<Player>(null);
 const gameBoard = ref<Board>(initializeBoardState());
