@@ -1,75 +1,74 @@
-# Nuxt Minimal Starter
+# Tic-Tac-Toe AI
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Tic-Tac-Toe AI is a simple and minimal web-based tic-tac-toe game where you can choose X or O and play against an AI opponent. The AI is powered by the **Minimax algorithm**, ensuring a smart and unbeatable gameplay experience. The app is built using **Nuxt**, **Vue**, and **TailwindCSS**.
 
-## Setup
+## Table of Contents
 
-Make sure to install dependencies:
+- [Introduction](#introduction)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [How to Run](#how-to-run)
+- [Screenshots](#screenshots)
+- [Live Demo](#live-demo)
+- [Contributing](#contributing)
+- [License](#license)
 
-```bash
-# npm
-npm install
+## Introduction
 
-# pnpm
-pnpm install
+This project is a classic tic-tac-toe game with an AI opponent. You can pick your side (X or O) and challenge the AI, which uses the Minimax algorithm to make optimal moves. The interface is clean, fast, and responsive, offering a simple yet engaging game experience.
 
-# yarn
-yarn install
+## Features
 
-# bun
-bun install
-```
+- Play as X or O
+- Smart AI powered by Minimax algorithm
+- Minimal and responsive UI
+- Built for quick and casual gameplay
 
-## Development Server
+## Tech Stack
 
-Start the development server on `http://localhost:3000`:
+- **Framework**: Nuxt (Vue)
+- **Styling**: TailwindCSS
+- **AI Logic**: Minimax Algorithm
 
-```bash
-# npm
-npm run dev
+## How to Run
 
-# pnpm
-pnpm dev
+1. Clone the repository:
 
-# yarn
-yarn dev
+   ```bash
+   git clone https://github.com/sansalgo/tic-tac-toe-ai.git
+   cd tic-tac-toe-ai
+   ```
 
-# bun
-bun run dev
-```
+2. Install dependencies:
 
-## Production
+   ```bash
+   pnpm install
+   ```
 
-Build the application for production:
+3. Start the development server:
 
-```bash
-# npm
-npm run build
+   ```bash
+   pnpm run dev
+   ```
 
-# pnpm
-pnpm build
+4. Open your browser and go to:
 
-# yarn
-yarn build
+   ```
+   http://0.0.0.0:3000
+   ```
 
-# bun
-bun run build
-```
+## Screenshots
 
-Locally preview production build:
+![Tic-Tac-Toe Screenshot](screenshots/tic-tac-toe-ui.png)
 
-```bash
-# npm
-npm run preview
+## Live Demo
 
-# pnpm
-pnpm preview
+Play now: [Tic-Tac-Toe AI Live](https://x-o-ai.netlify.app)
 
-# yarn
-yarn preview
+## Contributing
 
-# bun
-bun run preview
-```
+Contributions are welcome! If you find bugs or have feature suggestions, feel free to open an issue or create a pull request.
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## License
+
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
